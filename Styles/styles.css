@@ -1,0 +1,64 @@
+/* style.css */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 2px;
+    outline: none;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+li:hover {
+    background-color: #f8f8f8;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+li button {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
